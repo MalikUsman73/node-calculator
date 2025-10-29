@@ -17,6 +17,10 @@ test('divides 6 / 2 to equal 3', () => {
     expect(calc.divide(6, 2)).toBe(3);
 });
 
+test('modulus 10 % 3 to equal 1', () => {
+    expect(calc.modulus(10, 3)).toBe(1);
+});
+
 test('throws error when dividing by zero', () => {
     expect(() => calc.divide(4, 0)).toThrow('Cannot divide by zero');
 });

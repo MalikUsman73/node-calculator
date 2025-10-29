@@ -19,4 +19,8 @@ function divide(a, b) {
     return a / b;
 }
 
-module.exports = { add, subtract, multiply, divide };
+function modulus(a, b) {
+    return a % b;
+}
+
+module.exports = { add, subtract, multiply, divide, modulus };
